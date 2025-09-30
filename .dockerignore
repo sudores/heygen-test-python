@@ -1,3 +1,7 @@
 .venv
 models
 uploaded_image.jpg
+Dockerfile
+.git
+.github
+.dockerignore
