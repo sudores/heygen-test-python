@@ -26,5 +26,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/heygen-test-python:${{ github.GITHUB_REF_NAME }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/heygen-test-python:${{ github.GITHUB_SHA }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/heygen-test-python:${{ github.ref_name }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/heygen-test-python:${{ github.sha }}
